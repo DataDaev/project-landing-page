@@ -110,6 +110,31 @@ body {
     text-align: end;
 }
 
+.signup-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 100px auto;
+    color: #F9FAF8;
+    padding: 30px 20px;
+}
+
+.signup-text > h1 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.signup-text > p {
+    margin-top: 0;
+}
+
+.signup-section > button {
+    border:2px solid #F9FAF8;
+}
+
 button {
     font-weight: 700;
     color: #E5E7EB;
@@ -123,4 +148,9 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #F9FAF8
 }
