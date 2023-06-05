@@ -1,14 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 
 .links {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.pitch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    padding-bottom: 100px;
+}
+
+.intro > h1 {
+    font-size: 48px;
+    font-weight: 1200;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.intro > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+    margin: 10px 0;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 600px;
+    background-color: gray;
+    color: #E5E7EB;
+    flex: 0 0 1;
+}
+
+button {
+    font-weight: 700;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 5px 20px;
 }
 
 ul {
