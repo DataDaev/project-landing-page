@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
+    padding: 20px 200px;
 }
 
 .links {
@@ -61,6 +61,40 @@ body {
     background-color: gray;
     color: #E5E7EB;
     flex: 0 0 1;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 36px 0;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+}
+
+.info-sections {
+    max-width: 150px;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 6px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
 }
 
 button {
